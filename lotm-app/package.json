@@ -1,0 +1,10 @@
+{
+  "name": "lotm-app-root",
+  "version": "1.0.0",
+  "description": "Root management for Sefirah Castle LotM Wiki",
+  "scripts": {
+    "backend": "cd backend && java -cp \"bin;lib/*\" com.lotm.AppServer",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "start npm run backend && npm run frontend"
+  }
+}
